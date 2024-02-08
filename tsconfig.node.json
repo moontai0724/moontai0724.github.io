@@ -6,5 +6,5 @@
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true
   },
-  "include": ["vite.config.ts", "commitlint.config.cjs"]
+  "include": ["*.config.ts", "*.config.cjs", "*.config.js", "*.json"]
 }

@@ -13,5 +13,8 @@
     },
     "editor.formatOnSave": true
   },
+  "files.associations": {
+    "*.{scss,sass,css}": "tailwindcss"
+  },
   "typescript.preferences.importModuleSpecifier": "non-relative"
 }

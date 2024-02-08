@@ -16,6 +16,7 @@
     "prepare": "husky || true"
   },
   "dependencies": {
+    "primevue": "^3.48.1",
     "vue": "^3.3.11"
   },
   "devDependencies": {
@@ -29,6 +30,7 @@
     "@vitejs/plugin-vue": "^4.5.2",
     "@vue/eslint-config-airbnb-with-typescript": "^8.0.0",
     "@vue/eslint-config-prettier": "^9.0.0",
+    "autoprefixer": "^10.4.17",
     "eslint": "^8.56.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
@@ -39,13 +41,16 @@
     "eslint-plugin-vue": "^9.21.1",
     "husky": "^9.0.10",
     "lint-staged": "^15.2.2",
+    "postcss": "^8.4.35",
     "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.8",
     "vue-tsc": "^1.8.25"
   },
   "lint-staged": {
-    "*.{ts,cjs,vue}": "eslint --cache --cache-location node_modules/.cache/eslint",
+    "*.{ts,cjs,js,vue}": "eslint --cache --cache-location node_modules/.cache/eslint",
     "*.**": "prettier --check --ignore-unknown"
   }
 }
